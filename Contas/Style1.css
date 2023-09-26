@@ -1,0 +1,44 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    background-image: url("Gif/Black.gif"); 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #33373b;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+h2 {
+    
+        text-align: center;
+    background-color: #33373b;
+    color: #b38282;
+     width: 210px;
+     border-radius: 5px;
+   
+     
+}
+
+p {
+    
+    background-color: #33373b;
+    width: 210px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color:white;
+    
+   
+    
+}
+
+strong {
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style2.css">
+    <title>Ramontorr</title>
+    <style>
+        /* Estilos (mantidos iguais) */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ramontorr</h1>
+    </header>
+    <div class="container">
+        <h2>Pasta</h2>
+        <!-- Formulário de senha -->
+        <div id="password-form">
+            <label for="password">Digite a senha para acessar:</label>
+            <input type="password" id="password" placeholder="Senha">
+            <button id="access-button" onclick="checkPassword()">Acessar</button>
+        </div>
+       
+        
+        <div id="gallery" style="display: none;">
+        
+            <ul>
+                <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+                <li><a href="Contas/Contas.html" >Contas</a></li1>
+                <li><a href="Site Fotos/Fotos.html">Fotos</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Senha para acesso
+        const correctPassword = "123";
+
+        function checkPassword() {
+            const passwordInput = document.getElementById("password");
+            const gallery = document.getElementById("gallery");
+            const passwordForm = document.getElementById("password-form");
+
+            if (passwordInput.value === correctPassword) {
+                passwordForm.style.display = "none"; // Esconde o formulário de senha
+                gallery.style.display = "block"; // Mostra a galeria de fotos
+            } else {
+                alert("Senha incorreta. Tente novamente.");
+                passwordInput.value = ""; // Limpa o campo de senha
+            }
+        }
+        document.getElementById("password").addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                checkPassword();
+            }
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin:  auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+  
+    
+}
+
+/* Formulário de senha */
+#password-form {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 425px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button:hover {
+    background-color: rgb(37, 59, 121);
+}
+
+
+#gallery {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 35px;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #eb1b00;
+}
+
+/*titulo*/
+
+h1{
+    text-align: center;
+    color: transparent
+    
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+
+
+/*gif*/
+
+body {
+    background-image: url("Gif/codigos.webp"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+}

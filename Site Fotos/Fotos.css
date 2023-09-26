@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Gif/Black.gif) ;
+}
+
+header {
+    background-color: #363333;
+    background-image: url(Gif/Branco.gif);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.image {
+    text-align: center;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 10px 0;
+    color: white;
+}
+
+#search {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+}
+
